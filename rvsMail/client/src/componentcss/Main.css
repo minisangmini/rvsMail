@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Happiness-Sans-Title';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2205@1.0/Happiness-Sans-Title.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.main-wrap-all {
+    text-align: center;
+}
+.main-title {
+    font-family: 'Happiness-Sans-Title';
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 100px;
+}

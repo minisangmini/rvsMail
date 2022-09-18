@@ -1,0 +1,77 @@
+.register-container {
+  height: 800px;
+  width: 550px;
+  background-color: antiquewhite;
+  margin: 50px 0 0 34vw;
+  float: left;
+  padding-left: 50px;
+  border-radius: 20px;
+}
+.register-container input {
+  font-size: 16px;
+  height: 40px;
+  width: 350px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.id-title {
+  margin-top: 50px;
+  margin-bottom: 5px;
+}
+.check-id {
+  background-color: inherit;
+  border: 1px solid black;
+  font-size: 20px;
+  border-radius: 20px;
+  position: relative;
+  top: 3px;
+  left: 15px;
+  cursor: pointer;
+}
+.psword-title {
+  margin-top: 35px;
+}
+.psword-info {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: 10px;
+}
+.name-title {
+  margin-top: 40px;
+}
+.mail-title {
+  margin-top: 40px;
+}
+.register-mail, .register-mail-code {
+  margin-bottom: 20px;
+}
+.send-mail, .check-mail-code {
+  border: 1px solid black;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.check-mail-code {
+  position: relative;
+  top: 3px;
+  cursor: pointer;
+}
+.register-submit {
+  border: none;
+  background-color: rgb(247, 205, 151);
+  height: 50px;
+  width: 400px;
+  border-radius: 30px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.register-submit:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.6);
+}
+
+.register-right {
+  outline: 2px solid greenyellow;
+}
+.register-wrong {
+  outline: 2px solid red;
+}

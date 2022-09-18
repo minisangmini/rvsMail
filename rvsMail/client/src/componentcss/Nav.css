@@ -1,0 +1,44 @@
+.nav-container {
+  float: left;
+  text-align: center;
+  width: 85px;
+  height: 100vh;
+  background-color: rgb(180, 233, 102, 0.6);
+}
+.nav-container > nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.nav-container nav .nav-item:first-child {
+  margin-top: 150px;
+}
+.nav-container nav .nav-item {
+  margin-bottom: 50px;
+  text-decoration: none;
+  color: black;
+  text-shadow: 1px 1px 10px gray;
+  font-size: 22px;
+  padding: 10px;
+}
+.nav-container nav .nav-item:hover {
+  background-color: rgb(128, 128, 128, 0.5);
+}
+.activeNav {
+  background-color: rgb(128, 128, 128, 0.5);
+}
+img {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  top: 3px;
+}
+.logout-button {
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+  margin-top: 30vh;
+}
+.logout-button:hover {
+  cursor: pointer;
+}

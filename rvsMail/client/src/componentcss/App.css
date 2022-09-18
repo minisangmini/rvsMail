@@ -1,0 +1,26 @@
+body { margin: 0; padding: 0; }
+
+.alert-box {
+    position: fixed;
+    bottom: 0;
+    transform: translateY(100px);
+    left: 46vw;
+    background-color: rgb(255, 255, 0, 0.7);
+    padding: 20px;
+    border-radius: 20px;
+    transition: opacity .7s, transform 1s;
+}
+.alert-fade-in {
+    display: block;
+    opacity: 1;
+    transform: translateY(-80px);
+}
+.alert-fade-out {
+    display: block;
+    opacity: 0.1;
+    transform: translateY(120px);
+}
+
+/* @keyframes {
+    
+} */

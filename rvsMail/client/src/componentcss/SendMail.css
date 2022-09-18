@@ -1,0 +1,76 @@
+.send-user-botton {
+  transition: all .2s;
+  margin: 80px 0 0 76vw;
+  border: none;  
+  background-color: rgb(212, 233, 122);
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.send-user-botton:hover {
+  box-shadow: 0 0 20px rgb(128, 128, 128, 0.4);
+}
+.send-user-botton:active {
+  transform: scale(1.1);
+}
+
+.send-user-container {
+  border: 1px solid black;
+  width: 60vw;
+  height: auto;
+  margin: 0 0 0 20%;
+}
+.send-user-container ul {
+  list-style-type: none;
+  padding-right: 40px;
+}
+.send-user-container ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  font-family: 'GongGothicMedium';
+  font-size: 20px;
+}
+.send-user-container ul li:first-child {
+  border: 1px solid black;
+}
+.send-user-container .user-name {
+  flex:2;
+  text-align: center;
+}
+.send-user-container .user-relation {
+  flex:3;
+  text-align: center;
+}
+.send-user-container .user-mail {
+  flex: 7;
+  text-align: center;
+}
+.send-user-container span[class='check-send'] {
+  flex: 2;
+  text-align: center;
+  margin: 0;
+  margin-right: 10px;
+}
+.send-user-container input[class='check-send'] {
+  flex: 2;
+  text-align: center;
+  height: 30px;
+  width: 50px;
+  margin: 0;
+  margin-right: 10px;
+}
+.all-check-container {
+  margin: 0 0 2% 69%;
+  font-size: 22px;
+}
+.all-check-container > input {
+  height: 30px;
+  width: 30px;
+  position: relative;
+  top: 5px;
+}

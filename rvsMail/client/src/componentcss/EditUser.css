@@ -1,0 +1,167 @@
+@font-face {
+  font-family: 'GongGothicMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicMedium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+.add-user-botton {
+  transition: all .2s;
+  margin: 80px 0 0 76vw;
+  border: none;  
+  background-color: rgb(212, 233, 122);
+  font-size: 24px;
+  padding: 1rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.add-user-botton:hover {
+  box-shadow: 0 0 20px rgb(128, 128, 128, 0.4);
+}
+.add-user-botton:active {
+  transform: scale(1.1);
+}
+.add-user-container {
+  border: 1px solid black;
+  margin: 30px 0 0 20%;
+  width: 70vw;
+  padding: .8rem;
+  box-shadow: 0 0 10px rgb(128, 128, 128, 0.5);
+}
+.add-user-container input {
+  font-size: 22px;
+  margin-left: 10px;
+}
+.add-user-container input[placeholder='메일'] {
+  width: 400px;
+}
+.add-user-container button {
+  border: none;
+  font-size: 20px;
+  padding: 6px 20px 6px 20px;
+  border-radius: 30px;
+  margin-left: 30px;
+  background-color: beige;
+  cursor: pointer;
+}
+.add-user-container button:hover {
+  box-shadow: 1px 1px 10px gray;
+}
+.edit-user-container {
+  border: 1px solid black;
+  width: 80vw;
+  height: auto;
+  margin: 2% 0 0 13%;
+}
+.edit-user-container ul {
+  list-style-type: none;
+  padding-right: 40px;
+}
+.edit-user-container ul li {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  font-family: 'GongGothicMedium';
+  font-size: 20px;
+}
+.edit-user-container ul li:first-child {
+  border: 1px solid black;
+}
+.edit-user-container .user-name {
+  flex:2;
+  text-align: center;
+}
+.edit-user-container .user-relation {
+  flex:3;
+  text-align: center;
+}
+.edit-user-container .user-mail {
+  flex: 8;
+  text-align: center;
+}
+.edit-user-container .send-record {
+  font-family: 'GongGothicMedium';
+  flex: 2;
+  text-align: center;
+}
+.send-record > button {
+  transition: all 0.3s;
+  border: none;
+  background-color: rgb(127, 255, 212, 0.4);
+  font-family: 'GongGothicMedium';
+  font-size: 20px;
+  padding: 6px 20px 6px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.edit-user-container .control-user-button {
+  flex: 4;
+  text-align: center;
+}
+.control-user-button button {
+  transition: all .4s;
+  border: none;
+  font-family: 'GongGothicMedium';
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 5px 15px 5px 15px;
+  cursor: pointer;
+}
+.control-user-button > .delete {
+  margin: 0 60px 0 15px;
+  background-color: rgb(235, 130, 130);
+}
+.control-user-button > .edit {
+  background-color: rgb(114, 114, 236);
+}
+
+
+.send-record > button:hover {
+  transform:scaleX(1.1);
+}
+.control-user-button .delete:hover {
+  transform: rotate(10deg);
+}
+.control-user-button .edit:hover {
+  transform: rotate(-10deg);
+}
+
+.edit-li-container input {
+  font-family: 'GongGothicMedium';
+  font-size: 20px;
+  padding-left: 10px;
+}
+.edit-user-name {
+  flex: 1;
+  width: 140px;
+}
+.edit-user-relation {
+  flex: 1;
+  width: 140px;
+  margin-left: 40px;
+}
+.edit-user-mail {
+  width: 500px;
+  margin-left: 80px;
+}
+.edit-button {
+  flex: 4;
+}
+.edit-button button {
+  border: none;
+  font-family: 'GongGothicMedium';
+  font-size: 22px;
+  border-radius: 20px;
+  padding: 0.8vh 2.4vh 0.8vh 2.4vh;
+  cursor: pointer;
+}
+.edit-button button:first-child {
+  margin-left: 1.5vw;
+  background-color: rgb(139, 226, 241);
+}
+.edit-button button:last-child {
+  margin-left: 0.5vw;
+  background-color: rgb(211, 108, 236);
+}

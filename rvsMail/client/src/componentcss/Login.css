@@ -1,0 +1,97 @@
+.login-container {
+  height: 53vh;
+  width: 39vw;
+  background-color: antiquewhite;
+  margin: 25vh 0 0 32vw;
+  text-align: center;
+  border-radius: 20px;
+  user-select: none;
+}
+.login-id {
+  margin: 15px 0 10px 0;
+}
+.login-id, .login-psword {
+  font-size: 16px;
+  letter-spacing: 2px;
+  height: 40px;
+  width: 300px;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+}
+.login-id:focus, .login-psword:focus {
+  outline: none;
+  outline: 1px solid rgb(240, 162, 59)
+}
+.keepLogin-container {
+  margin: 10px 200px 0 0;
+}
+.login-keepLogin {
+  height: 20px;
+  width: 20px;
+}
+label[for="keepLogin"] {
+  position: relative;
+  bottom: 3px;
+}
+.login-submit {
+  border: none;
+  background-color: rgb(247, 205, 151);
+  height: 50px;
+  width: 310px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+.login-submit:hover {
+  box-shadow: 1px 1px 10px rgb(0, 0, 0, 0.6);
+}
+.go-register, .find-info {
+  text-decoration: none;
+  color: black;
+}
+.go-register {
+  float: left;
+  margin: 80px 0 0 30px;
+  cursor: pointer;
+  text-shadow: -1px 1px 1px rgb(210, 212, 65);
+}
+.find-info {
+  float: right;
+  margin: 80px 20px 0 0;
+  cursor: pointer;
+  text-shadow: -1px 1px 1px rgb(210, 212, 65);
+}
+#error-msg {
+  margin: 0;
+  padding: 0;
+  margin: 5px 0 15px 0;
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
+@keyframes errAnimation {
+  10% {
+    transform: translateY(-4px);
+  } 20% {
+    transform: translateY(4px);
+  } 50% {
+    transform: translateY(-3px);
+  } 65% {
+    transform: translateY(2px);
+  } 75% {
+    transform: translateY(-2px);
+  } 85% {
+    transform: translateY(-4px);
+  } 90% {
+    transform: translateY(4px);
+  } 100% {
+    transform: translateY(-3px);
+  } 
+  
+}
+.error-animation {
+  animation: errAnimation 1 .4s;
+}
+
+.login-info {
+  padding-top: 20px;
+  font-weight: 600;
+}

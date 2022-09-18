@@ -1,0 +1,18 @@
+.wrap-all {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 20px;
+}
+.mail-psword {
+    font-size: 20px;
+}
+.mail-psword-register {
+    margin-left: 30px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.mail-psword-register:hover {
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}

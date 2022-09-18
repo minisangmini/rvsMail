@@ -1,0 +1,46 @@
+.write-mail-container {
+  text-align: center;
+  margin-top: 80px;
+}
+.write-mail-title {
+  font-size: 22px;
+  width: 50vw;
+  height: 5vh;
+  margin-bottom: 20px;
+}
+.write-mail-contents {
+  resize: none;
+  font-size: 22px;
+  height: 50vh;
+  width: 70vw;
+  padding: 5px 0 0 5px;
+}
+.write-mail-send-button {
+  float: left;
+  margin: 30px 0 0 200px;
+  border: none;
+  font-size: 26px;
+  height: 50px;
+  width: 400px;
+  background-color: rgb(197, 241, 131);
+  border-radius: 30px;
+}
+.write-mail-send-button:hover {
+  box-shadow: 0 0 10px gray;
+}
+.write-mail-send-button:active {
+  outline: 1px solid black;
+}
+.date-box {
+  font-size: 30px;
+  position: relative;
+  margin: 14px 300px 0 0;
+}
+.time-box {
+  font-size: 30px;
+  position: relative;
+  right: 250px;
+}
+.time-info {
+  font-size: 22px;
+}

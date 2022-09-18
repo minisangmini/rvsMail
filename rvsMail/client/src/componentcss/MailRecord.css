@@ -1,0 +1,38 @@
+.record-container { 
+  border: 1px solid black;
+  width: 80vw;
+  height: auto;
+  margin: 7% 0 0 9%;
+}
+.record-container ul {
+  list-style-type: none;
+  text-align: center;
+  padding-right: 2vw;
+}
+.record-container ul li {
+  border-bottom: 1px solid black;
+  padding: 10px 0 10px 0;
+  align-items: center;
+  font-family: 'GongGothicMedium';
+  font-size: 20px;
+}
+.record-container ul li span {
+  margin-right: 3vw;
+}
+.record-container ul li span:last-child { margin-right: 0.2vw; }
+
+.record-back {
+  border-radius: 30px;
+  background-color: darkcyan;
+  color: white;
+  font-size: 22px;
+
+  position:absolute;
+  top: 5%;
+  right: 12%;
+  
+  padding: 10px 25px 10px 25px;
+}
+.record-back:hover {
+  box-shadow: 0 0 10px black;
+}
